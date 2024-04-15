@@ -1,0 +1,948 @@
+@charset "UTF-8";
+body {
+  background-color: #e3e3e3;
+}
+body header {
+  display: flex;
+  padding-top: 40px;
+  padding-left: 82px;
+}
+body header .head .logo div .logo-img {
+  width: 200px;
+}
+body header .head .header-nav .menu-list {
+  margin-left: 382px;
+  display: flex;
+}
+body header .head .header-nav .menu-list .menu {
+  margin-left: 60px;
+  font-size: 20px;
+}
+body header .head .header-nav .menu-list .menu a {
+  text-decoration: none;
+  color: #000000;
+}
+body header .head .header-nav .menu-list .menu-contact {
+  background-color: #6FC7D5;
+  border-radius: 50px;
+  padding: 4px 30px;
+}
+body header .head .header-nav .menu-list .menu-contact a {
+  color: #ffffff;
+}
+body .fv {
+  padding-top: 72px;
+  margin: 82px;
+  height: 720px;
+  background-image: url(../images/fv.png);
+  background-repeat: no-repeat;
+  background-size: 1085px;
+  background-position: 120%;
+}
+body .fv h1 {
+  font-weight: bold;
+  margin-top: 144px;
+  font-size: 64px;
+}
+body .fv h2 {
+  font-size: 20px;
+}
+body .message {
+  margin-top: 200px;
+  display: flex;
+}
+body .message .message-title {
+  height: 94px;
+  margin-left: 144px;
+}
+body .message .message-title h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
+body .message .message-title h1 span {
+  color: #6FC7D5;
+}
+body .message .message-title h2 {
+  margin-top: -15px;
+  font-size: 20px;
+  text-align: center;
+}
+body .message .message-text-box {
+  margin-left: 80px;
+}
+body .message .message-text-box h3 {
+  font-size: 24px;
+}
+body .message .message-text-box .message-text {
+  margin-top: 40px;
+}
+body .slide-message-box {
+  margin-top: 200px;
+}
+body .slide-message-box .slide-message {
+  font-size: 64px;
+}
+body .service {
+  margin-top: 200px;
+  background-color: #ffffff;
+  padding-bottom: 63px;
+  padding-top: 80px;
+  border-radius: 0px 200px 0px 0px/0px 200px 0px 0px;
+}
+body .service .service-title {
+  display: flex;
+  margin-left: 81px;
+}
+body .service .service-title h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
+body .service .service-title h1 span {
+  color: #6FC7D5;
+}
+body .service .service-title h2 {
+  font-size: 20px;
+  margin-left: 20px;
+  padding-top: 40px;
+}
+body .service .service-main-box {
+  border-top: rgba(26, 11, 8, 0.5) solid 1px;
+  margin-left: 81px;
+  width: 1280px;
+}
+body .service .service-main-box .service-box {
+  display: flex;
+}
+body .service .service-main-box .service-box .service-box-nu-na {
+  margin-left: 123px;
+  border-right: rgba(26, 11, 8, 0.5) solid 1px;
+}
+body .service .service-main-box .service-box .service-box-nu-na .service-number {
+  font-size: 64px;
+  padding-top: 40px;
+  padding-right: 38px;
+}
+body .service .service-main-box .service-box .service-box-nu-na .service-name {
+  writing-mode: vertical-rl;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 90px;
+  letter-spacing: 7px;
+}
+body .service .service-main-box .service-box .service-content-box {
+  display: block;
+}
+body .service .service-main-box .service-box .service-content-box .service-content {
+  display: flex;
+  margin-left: 40px;
+}
+body .service .service-main-box .service-box .service-content-box .service-content .service-ph {
+  width: 300px;
+  padding-top: 40px;
+}
+body .service .service-main-box .service-box .service-content-box .service-content .service-ph-sm {
+  width: 150px;
+}
+body .service .service-main-box .service-box .service-content-box .service-content .service-text {
+  width: 692px;
+  margin-top: 88px;
+  margin-left: 40px;
+  font-size: 20px;
+}
+body .service .service-main-box .service-list {
+  width: 870px;
+  height: 120px;
+  margin-left: 40px;
+}
+body .service .service-main-box .service-list .service-list-btn {
+  margin-top: 40px;
+  margin-right: 30px;
+  padding: 10px 23px;
+  border-radius: 50px;
+  background-color: #e3e3e3;
+  border: 1px solid transparent;
+}
+body .service .service-main-box .service-list-content {
+  background-color: #e3e3e3;
+  padding: 40px;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+body .service .service-main-box .service-list-content .service-list-content-list {
+  display: flex;
+}
+body .service .service-main-box .service-list-content .service-list-explanation-box {
+  display: flex;
+  font-size: 12px;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+body .contact {
+  height: 250px;
+  background-color: #e3e3e3;
+  display: flex;
+  background-image: url(/library/images/lauren-mancke-aOC7TSLb1o8-unsplash\ 1.png);
+  background-size: 1440px 250px;
+  background-repeat: no-repeat;
+}
+body .contact .contact-title {
+  padding-top: 45px;
+  margin-left: 138px;
+}
+body .contact .contact-title .contact-title-box {
+  display: flex;
+}
+body .contact .contact-title .contact-title-box h1 {
+  font-weight: bold;
+  font-size: 48px;
+}
+body .contact .contact-title .contact-title-box h1 span {
+  color: #6FC7D5;
+}
+body .contact .contact-title .contact-title-box h2 {
+  padding-top: 35px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+body .contact .contact-title p {
+  margin-top: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+body .contact .btn-box {
+  padding: 45px 0 45px;
+}
+body .contact .btn-box .btn {
+  padding: 5px 120px 5px 31px;
+  border-radius: 50px;
+}
+body .contact .btn-box .btn-line {
+  background-color: #45AC51;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 5px rgba(62, 58, 58, 0.4);
+}
+body .contact .btn-box .btn-line .icon {
+  width: 67px;
+  margin-right: 30px;
+}
+body .contact .btn-box .btn-line a {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+body .contact .btn-box .btn-mail {
+  margin-top: 40px;
+  background-color: #6FC7D5;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 5px rgba(62, 58, 58, 0.4);
+}
+body .contact .btn-box .btn-mail .icon {
+  width: 67px;
+  margin-right: 30px;
+}
+body .contact .btn-box .btn-mail a {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+body .recommendation-section {
+  background-color: #e3e3e3;
+}
+body .recommendation-section .recommendation-box h2 {
+  width: 358px;
+  padding-top: 150px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: #6FC7D5 solid 3px;
+  margin: auto;
+}
+body .recommendation-section .recommendation-box .recommendation-main-box {
+  display: flex;
+  margin: 40px 0 109px 146px;
+}
+body .recommendation-section .recommendation-box .recommendation-main-box img {
+  width: 370px;
+  margin-right: 80px;
+}
+body .recommendation-section .recommendation-box .recommendation-main-box .recommendation-text-list {
+  width: 700px;
+  height: 250px;
+  border: rgba(62, 58, 58, 0.5) solid 1px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  text-align: left;
+  margin-top: 50px;
+}
+body .recommendation-section .recommendation-box .recommendation-main-box .recommendation-text-list .recommendation-text {
+  width: 473px;
+  font-size: 20px;
+  margin-left: 110px;
+  margin-bottom: 17px;
+}
+body .recommendation-section .recommendation-box .recommendation-main-box .recommendation-text-list .recommendation-text img {
+  width: 15px;
+  margin-right: 20px;
+}
+body .recommendation-section .recommendation-box .recommendation-main-box .recommendation-text-list .recommendation-text:nth-child(1) {
+  margin-top: 56px;
+}
+body .split {
+  background-color: #ffffff;
+  display: table;
+  width: 100%;
+  position: relative; /*position stickyの基点にするため relativeをかける*/
+  flex-wrap: wrap; /*ボックスの折り返し可*/
+}
+body .split .split-item {
+  display: table-cell;
+  width: 378px;
+}
+body .split .split-left {
+  background-color: #e3e3e3;
+  position: sticky;
+}
+body .split .split-left .split-left-box {
+  height: 880px;
+  padding-left: 80px;
+  position: sticky;
+  top: 0; /* ビューポートの上端から0pxの位置に固定 */
+  background-image: url(/library/images/markus-winkler-OQ48N5FDW1w-unsplash\ 2.png);
+  background-repeat: no-repeat;
+  background-size: 440px;
+}
+body .split .split-left .split-left-box .split-left-inner {
+  padding-top: 80px;
+}
+body .split .split-left .split-left-box .split-left-inner h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
+body .split .split-left .split-left-box .split-left-inner h1 span {
+  color: #6FC7D5;
+}
+body .split .split-left .split-left-box .split-left-inner h2 {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+body .split .split-left .split-left-price-inner-box {
+  margin-top: 308px;
+}
+body .split .split-left .split-left-price-inner-box .split-left-price {
+  margin-top: 40px;
+  width: 253px;
+}
+body .split .split-left .split-left-price-inner-box .split-left-price h3 {
+  margin-bottom: 20px;
+}
+body .split .split-left .split-left-price-inner-box .split-left-price a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #000;
+}
+body .split .split-left-inner {
+  display: flex;
+}
+body .split .split-right {
+  padding: 0;
+}
+body .split .split-right .split-right-inner {
+  height: 3000px;
+  margin-left: 80px;
+}
+body .split .split-right .split-right-inner p {
+  width: 567px;
+}
+body .split .split-right .split-right-inner .price-section {
+  width: 720px;
+  padding-right: 138px;
+}
+body .split .split-right .split-right-inner .price-section h2 {
+  margin-top: 150px;
+  font-size: 24px;
+  font-weight: bold;
+}
+body .split .split-right .split-right-inner .price-section h2 img {
+  height: 40px;
+}
+body .split .split-right .split-right-inner .price-section .price-genre {
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  position: relative;
+}
+body .split .split-right .split-right-inner .price-section .price-genre:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: #000;
+  bottom: 10px;
+}
+body .split .split-right .split-right-inner .price-section .price-list .price-menu {
+  text-align: center;
+  display: flex;
+  border-top: rgba(62, 58, 58, 0.5) solid 1px;
+  padding: 11px;
+  background-color: #e3e3e3;
+}
+body .split .split-right .split-right-inner .price-section .price-menu-name {
+  text-align: center;
+  display: flex;
+  border-top: rgba(62, 58, 58, 0.5) solid 1px;
+  padding: 22px;
+}
+body .split .split-right .split-right-inner .price-section .price-menu-name-lp {
+  text-align: center;
+  display: flex;
+  border-top: rgba(62, 58, 58, 0.5) solid 1px;
+  border-bottom: rgba(62, 58, 58, 0.5) solid 1px;
+  padding: 22px;
+}
+body .split .split-right .split-right-inner .price-section .price-menu:last-of-type {
+  border-bottom: rgba(62, 58, 58, 0.5) solid 1px;
+  padding-bottom: 22px;
+}
+body .split .split-right .split-right-inner .price-section .price-menu-last {
+  border-bottom: rgba(62, 58, 58, 0.5) solid 1px;
+  padding-bottom: 22px;
+}
+body .split .split-right .split-right-inner .range-section {
+  background-image: url(/library/images/box-02.png);
+  background-size: 720px 100px;
+  margin-top: 10px;
+}
+body .split .split-right .split-right-inner .range-section h3 {
+  text-align: center;
+  padding-top: 22px;
+}
+body .split .split-right .split-right-inner .range-section .range {
+  width: 567px;
+  font-size: 12px;
+  padding-top: 22px;
+  padding-bottom: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flow {
+  background-color: #ffffff;
+  padding-left: 80px;
+  padding-bottom: 58px;
+}
+.flow .flow-title {
+  display: flex;
+  padding-top: 100px;
+}
+.flow .flow-title h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
+.flow .flow-title h1 span {
+  color: #6FC7D5;
+}
+.flow .flow-title h2 {
+  font-size: 20px;
+  margin-left: 20px;
+  padding-top: 50px;
+}
+.flow .flow-box {
+  margin-top: 53px;
+}
+.flow .flow-box img {
+  width: 300px;
+}
+.flow .flow-box img:last-child {
+  height: 319px;
+}
+
+.faq {
+  padding: 80px;
+  padding-left: 0;
+  margin-top: 80px;
+  background-color: #ffffff;
+  border-radius: 0px 200px 0px 0px/0px 200px 0px 0px;
+}
+.faq .faq-title {
+  display: flex;
+  margin-left: 80px;
+  border-bottom: solid 1px #e3e3e3;
+  padding-bottom: 10px;
+  width: 1280px;
+}
+.faq .faq-title h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
+.faq .faq-title h1 span {
+  color: #6FC7D5;
+}
+.faq .faq-title h2 {
+  font-size: 20px;
+  margin-left: 20px;
+  padding-top: 50px;
+}
+.faq .faq-box {
+  margin-left: 80px;
+}
+.faq .faq-box .accordion {
+  margin: 2em 0;
+  border-bottom: solid 1px #e3e3e3;
+  width: 1280px;
+  padding-bottom: 10px;
+}
+.faq .faq-box .accordion__summary {
+  width: 1199px;
+  display: block;
+  font-size: 20px;
+  position: relative;
+  list-style: none; /* 矢印を消す */
+  cursor: pointer;
+  padding: 10px 38px 10px 10px;
+}
+.faq .faq-box .accordion__summary::-webkit-details-marker {
+  display: none;
+}
+.faq .faq-box .accordion__summary::after {
+  content: "+";
+  font-size: 1.4em; /* 記号のサイズ */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.faq .faq-box .accordion[open] .accordion__summary::after {
+  content: "−";
+}
+.faq .faq-box .accordion__detail {
+  width: 952px;
+  padding: 40px 12px;
+  margin: 10px 0;
+  background-color: #e3e3e3;
+  border-radius: 20px;
+}
+.faq .faq-box .accordion__text {
+  margin: 0;
+  font-size: 16px;
+}
+
+.form {
+  padding: 80px;
+}
+.form .form-box {
+  display: flex;
+}
+.form .form-box .contact-button-container {
+  position: fixed; /* ボタンを固定位置に設置 */
+  top: 50%; /* 上端から画面の半分の位置に */
+  right: 0; /* 右端から0pxの位置に */
+  transform: translateY(20%); /* ボタンの中心を画面の中央に */
+  z-index: 1000; /* 他の要素の上に表示 */
+}
+.form .form-box .contact-button-container .contact-button {
+  width: 50px;
+  height: 309px;
+  padding: 0 17px;
+  display: block; /* ブロック要素として表示 */
+  background-color: #45AC51; /* ボタンの背景色 */
+  color: white; /* テキストの色 */
+  text-align: center; /* テキストを中央揃え */
+  font-size: 24px; /* フォントサイズ */
+  font-weight: bold; /* フォントの太さ */
+  writing-mode: vertical-rl; /* テキストを縦書き */
+  text-orientation: upright; /* 文字を正しい方向に */
+  border-radius: 20px 0 0 20px; /* ボタンの上端に角丸を設定 */
+  text-decoration: none;
+  letter-spacing: 10px;
+}
+.form .form-box .contact-button-container .contact-button img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.form .form-box .contact-button-container .contact-button:hover {
+  background-color: #2c7; /* ホバー時の背景色を変更 */
+  text-decoration: none; /* ホバー時の下線を消す */
+}
+.form .form-box .form-box-title .form-title {
+  display: flex;
+}
+.form .form-box .form-box-title .form-title h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
+.form .form-box .form-box-title .form-title h1 span {
+  color: #6FC7D5;
+}
+.form .form-box .form-box-title .form-title h2 {
+  font-size: 20px;
+  margin-left: 20px;
+  padding-top: 50px;
+}
+.form .form-box .form-box-title .form-title p {
+  margin-top: 73px;
+}
+
+form {
+  width: 800px;
+  margin: auto;
+  margin-top: 111px;
+}
+form div {
+  width: 800px;
+}
+form div .label_section {
+  margin-top: 33px;
+  display: block;
+}
+form div .label_section input[type=radio] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  display: inline-block;
+  margin-right: 1px;
+  vertical-align: middle;
+}
+form div .label_section input[type=radio]:checked {
+  background-color: #000;
+}
+form div .label_section .label_text {
+  text-align: left;
+  font-size: 20px;
+}
+form div .label_section .input_area {
+  margin: 11px 0 0 auto;
+  width: 800px;
+  height: 50px;
+  background-color: #ffffff;
+  border: solid 1px #3e3a3a;
+  border-radius: 8px;
+}
+form div .label_section .input_area_remarks {
+  height: 200px;
+}
+form .policy {
+  width: 800px;
+  margin-top: 40px;
+  text-align: center;
+}
+form .policy .attention a {
+  color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+form .policy .policy {
+  padding-top: 20px;
+  letter-spacing: 3px;
+}
+form .policy input {
+  margin-top: 20px;
+}
+form .policy p input {
+  margin-top: 60px;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #ffffff;
+  text-align: center;
+}
+footer .logo-img {
+  width: 200px;
+  padding-top: 48px;
+}
+footer .footer-nav {
+  width: 840px;
+  padding-top: 40px;
+  margin: auto;
+}
+footer .footer-nav .menu-list {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-around;
+}
+footer .footer-nav .menu-list .menu a {
+  color: #000000;
+  text-decoration: none;
+}
+footer .footer-information {
+  margin-top: 40px;
+  padding-bottom: 35px;
+}
+footer .footer-information p {
+  margin-bottom: 5px;
+}
+
+.small-section {
+  background-color: #efefef;
+  padding: 12px 0 12px 0;
+  text-align: center;
+  height: 266px;
+}
+
+@media screen and (max-width: 768px) {
+  body .btn_trigger {
+    display: block !important;
+    width: 40px;
+    height: 45px;
+    position: relative;
+    z-index: 3;
+  }
+  body .bar {
+    width: 35px;
+    height: 1px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body .bar_top {
+    top: 10px;
+  }
+  body .bar_mid {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  body .bar_bottom {
+    bottom: 10px;
+  }
+  body .btn_trigger.close .bar_top {
+    transform: translate(-50%, 11px) rotate(45deg);
+    transition: transform 0.3s;
+  }
+  body .btn_trigger.close .bar_mid {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  body .btn_trigger.close .bar_bottom {
+    transform: translate(-50%, -13px) rotate(-45deg);
+    transition: transform 0.3s;
+  }
+  body .header-nav {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    /*キービジュアルと.btn_triggerとの重なりの前後関係を調整*/
+  }
+  body .header-nav {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.96);
+    opacity: 0.8;
+    z-index: 2;
+  }
+  body .menu-list.flex-rc {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 15%;
+    margin-left: 0;
+  }
+  body .header-nav .menu-list {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  body .header-nav .menu {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  body .menu {
+    margin-right: 0;
+  }
+  body .fv .catch {
+    width: 600px;
+  }
+  body .fv {
+    background-size: 700px;
+    margin: 0 0 0 20px;
+    height: 500px;
+  }
+  body .fv h1 {
+    margin-top: 220px;
+  }
+  body .message {
+    margin-top: 50px;
+  }
+  body .message .message-title {
+    margin-left: 30px;
+  }
+  body .message .message-title h1 {
+    font-size: 50px;
+  }
+  body .message .message-text-box {
+    margin-left: 40px;
+    width: 400px;
+  }
+  body .message .message-text-box p {
+    margin-top: 20px;
+  }
+  body .message .message-text-box p br {
+    display: none;
+  }
+  body .service .service-title h1 {
+    font-size: 50px;
+  }
+  body .service .service-main-box {
+    margin-left: 40px;
+    width: 700px;
+  }
+  body .service .service-main-box .service-box .service-box-nu-na {
+    margin-left: 50px;
+  }
+  body .service .service-main-box .service-box .service-box-nu-na p {
+    font-size: 50px;
+  }
+  body .service .service-main-box .service-box .service-content-box {
+    width: 350px;
+  }
+  body .service .service-main-box .service-box .service-content-box .service-content {
+    display: block;
+  }
+  body .service .service-main-box .service-box .service-content-box .service-content .service-ph {
+    width: 300px;
+    margin-left: 50px;
+  }
+  body .service .service-main-box .service-box .service-content-box .service-content .service-card {
+    width: 300px;
+    margin: 40px 0 20px 70px;
+  }
+  body .service .service-main-box .service-box .service-content-box .service-content .service-ph-sm {
+    width: 200px;
+    margin: 40px 0 20px 100px;
+  }
+  body .service .service-main-box .service-box .service-content-box .service-content .service-text {
+    margin-top: 0;
+    width: 350px;
+    margin-bottom: 40px;
+  }
+  body .service .service-main-box .service-box .service-content-box .service-content .service-text br {
+    display: none;
+  }
+  body .service .service-main-box .service-box .service-content-box .service-list {
+    width: 420px;
+  }
+  body .service .service-main-box .service-box .service-content-box .service-list .service-list-btn {
+    margin-bottom: 40px;
+  }
+  body .contact {
+    display: block;
+    height: 400px;
+  }
+  body .contact .contact-title p {
+    display: none;
+  }
+  body .contact .btn-box {
+    margin: auto;
+    width: 400px;
+    padding-top: 25px;
+  }
+  body .contact .btn-box .btn {
+    padding-right: 60px;
+  }
+  body .contact .btn-box .btn .icon {
+    width: 40px;
+  }
+  body .contact .btn-box .btn a {
+    font-size: 16px;
+  }
+  body .contact .btn-box .btn-mail {
+    margin-top: 20px;
+  }
+  body .recommendation-section .recommendation-box .recommendation-main-box {
+    display: block;
+    margin: 40px 0 109px 40px;
+    text-align: center;
+  }
+  body .recommendation-section .recommendation-box .recommendation-main-box img {
+    margin: auto;
+    text-align: center;
+    margin-right: 0;
+  }
+  body .split .split-item {
+    display: block;
+    width: 768px;
+  }
+  body .split .split-left .split-left-box {
+    background-size: 768px;
+    height: 500px;
+  }
+  body .split .split-left .split-left-box .split-left-inner {
+    padding-top: 140px;
+  }
+  body .split .split-left .split-left-box .split-left-price-inner-box {
+    margin-top: 50px;
+    display: flex;
+  }
+  body .split .split-right .split-right-inner {
+    margin-left: 40px;
+    height: auto;
+  }
+  body .split .split-right .split-right-inner p {
+    width: 370px;
+    margin: 40px auto;
+  }
+  body .split .split-right .split-right-inner .price-section {
+    width: 650px;
+  }
+  body .split .split-right .split-right-inner .price-section h2 {
+    margin-top: 50px;
+  }
+  body .faq .faq-title {
+    width: 700px;
+    margin-left: 40px;
+  }
+  body .faq .faq-box {
+    margin-left: 40px;
+  }
+  body .faq .faq-box .accordion {
+    width: 650px;
+  }
+  body .faq .faq-box .accordion .accordion__detail {
+    width: 650px;
+  }
+  body .faq .faq-box .accordion__summary {
+    width: 570px;
+  }
+  body .form {
+    padding-left: 40px;
+  }
+  body .form form {
+    width: 650px;
+  }
+  body .form form div {
+    width: 650px;
+  }
+  body .form form div .input_area {
+    width: 650px;
+  }
+  body footer .footer-nav {
+    width: 700px;
+  }
+}/*# sourceMappingURL=style.css.map */
