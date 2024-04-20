@@ -1,0 +1,76 @@
+body{
+    main{
+        text-align: left;
+        width: 1100px;
+        margin: auto;
+        padding-top: 160px;
+        padding-bottom: 80px;
+        div{
+            h1{
+                font-weight: bold;
+                font-size: 64px;
+                span{
+                    color: #6FC7D5;
+                }
+            }
+        }
+    }
+}
+
+h3 {
+    margin: 100px 0 80px 0;
+    font-size: 24px;
+}
+
+.policy {
+    width: 1100px;
+    margin-top: 20px;
+
+    h3 {
+        margin: 274px 0 109px 0;
+        font-size: 24px;
+    }
+
+    .kojin {
+        margin-top: 150px;
+    }
+
+    .dais {
+        margin-top: 40px;
+    }
+
+    .company-name {
+        margin-top: 40px;
+    }
+
+    .name {
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        .about-us {
+            width: 650px;
+
+            .policy {
+                width: 650px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    body {
+        .about-us {
+            width: 370px;
+
+            .policy {
+                width: 370px;
+            }
+        }
+    }
+}
