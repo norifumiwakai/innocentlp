@@ -1,0 +1,69 @@
+body {
+  width: 1440px;
+}
+body main {
+  background-color: #ffffff !important;
+}
+body main div a .logo-img {
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 51px;
+}
+body main .form-h1 {
+  text-align: center;
+  margin-top: 181px;
+  font-size: 48px;
+}
+body main .form-text {
+  text-align: center;
+  margin-top: 73px;
+  line-height: 30px;
+}
+body main .back-btn-box {
+  margin-top: 75px;
+  text-align: center;
+}
+body main .back-btn-box .back-btn {
+  background-color: #3e3a3a;
+  border-radius: 50px;
+  padding: 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+body footer {
+  margin-top: 80px;
+  background-color: #efefef;
+}
+body .small-section {
+  background-color: #ffffff;
+  height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 768px;
+  }
+  body div a .logo-img {
+    margin-left: 20px !important;
+  }
+  body main {
+    width: 720px;
+  }
+  body main .form-h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 425px) {
+  body {
+    width: 425px;
+  }
+  body div a .logo-img {
+    margin-left: 20px !important;
+  }
+  body main {
+    width: 400px;
+  }
+  body main .form-h1 {
+    font-size: 32px !important;
+  }
+}/*# sourceMappingURL=form.css.map */
