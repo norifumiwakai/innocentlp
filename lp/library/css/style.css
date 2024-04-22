@@ -120,6 +120,7 @@ body main .service .service-main-box {
   width: 1280px;
 }
 body main .service .service-main-box .service-box {
+  height: inherit;
   display: flex;
 }
 body main .service .service-main-box .service-box .service-box-nu-na {
@@ -878,17 +879,19 @@ footer .footer-information p {
   body main .service .service-main-box {
     margin-left: 40px;
     width: 700px;
-    height: 650px;
+  }
+  body main .service .service-main-box .service-list-content {
+    width: 400px;
+  }
+  body main .service .service-main-box .service-list-content .service-list-content-list {
+    display: flex;
+    flex-wrap: wrap;
   }
   body main .service .service-main-box .service-box .service-box-nu-na {
     margin-left: 50px;
-    height: 650px;
   }
   body main .service .service-main-box .service-box .service-box-nu-na p {
     font-size: 50px;
-  }
-  body main .service .service-main-box .service-box .service-content-box {
-    width: 350px;
   }
   body main .service .service-main-box .service-box .service-content-box .service-content {
     display: block;
@@ -914,7 +917,9 @@ footer .footer-information p {
   }
   body main .service .service-main-box .service-box .service-content-box .service-list {
     width: 470px;
+    height: 180px;
     margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -924,9 +929,6 @@ footer .footer-information p {
   }
   body main .service .service-main-box .service-box .service-content-box .service-list-gr {
     height: 62px;
-  }
-  body main .service .service-main-box .service-box-gr {
-    height: 800px;
   }
   body main .contact {
     display: block;
@@ -986,6 +988,7 @@ footer .footer-information p {
   }
   body main .split .split-right .split-right-inner p {
     margin: 0 auto;
+    margin-top: 40px;
   }
   body main .split .split-right .split-right-inner .price-section {
     width: 650px;
@@ -1001,8 +1004,12 @@ footer .footer-information p {
     width: 650px;
   }
   body main .split .split-right .split-right-inner .range-section {
+    height: 220px;
     background-size: 650px;
     background-position: 0 40%;
+  }
+  body main .flow .flow-box {
+    width: 620px;
   }
   body main .faq .faq-title {
     width: 700px;
@@ -1107,10 +1114,13 @@ footer .footer-information p {
   }
   body main .service .service-main-box {
     width: 370px;
-    height: 1020px;
     margin-left: 0;
-    padding-left: 40px;
+    padding-left: 30px;
     padding-right: 30px;
+  }
+  body main .service .service-main-box .service-list-content {
+    margin-left: 0;
+    width: 300px;
   }
   body main .service .service-main-box .service-box {
     display: block;
@@ -1143,10 +1153,14 @@ footer .footer-information p {
     margin-left: 0;
     display: block;
     width: 370px;
+    height: 400px;
   }
   body main .service .service-main-box .service-box .service-content-box .service-list .service-list-btn {
     width: 200px;
     margin-right: 0;
+  }
+  body main .service .service-main-box .service-box .service-content-box .service-list-gr {
+    height: 150px;
   }
   body main .contact {
     height: 350px;
@@ -1184,6 +1198,7 @@ footer .footer-information p {
     margin-top: 26px;
   }
   body main .split-right .split-right-inner .range-section {
+    height: 310px;
     background-size: 400px !important;
     background-position: bottom;
     background-position: 0 80% !important;
@@ -1192,14 +1207,25 @@ footer .footer-information p {
     flex-wrap: wrap;
     width: 250px;
   }
+  body main .split-right .split-right-inner .range-section {
+    height: 300px !important;
+  }
+  body main .split-right .split-right-inner .range-section-gr {
+    height: 200px !important;
+  }
   body main .split .split-item {
     width: 425px;
   }
   body main .split .split-item .split-right-inner {
     margin-left: 10px;
   }
+  body main .split .split-item .split-right-inner .split-right-inner-text {
+    font-size: 12px;
+    width: 330px;
+  }
   body main .split .split-item .split-right-inner p {
     font-size: 12px;
+    width: 90px;
   }
   body main .split .split-item .split-right-inner .price-section {
     width: 400px;
@@ -1224,6 +1250,9 @@ footer .footer-information p {
     width: 410px;
     padding-left: 20px;
   }
+  body main .flow .flow-box {
+    width: 380px;
+  }
   body main .flow .flow-box .flow-list {
     display: none;
   }
@@ -1247,6 +1276,9 @@ footer .footer-information p {
   body main .faq .faq-box .accordion__summary {
     width: 300px;
   }
+  body main .form {
+    padding: 20px;
+  }
   body main .form .form-box .form-box-title .form-title {
     display: block;
   }
@@ -1257,7 +1289,7 @@ footer .footer-information p {
     margin-top: 30px;
   }
   body main .form form {
-    width: 400px;
+    width: 370px;
   }
   body main .form form div {
     width: 370px;

@@ -134,6 +134,7 @@ body{
             margin-left: 81px;
             width: 1280px;
             .service-box{
+                height: inherit;
                 display: flex;
                 .service-box-nu-na{
                     margin-left: 123px;
@@ -968,17 +969,21 @@ footer{
         .service-main-box{
             margin-left: 40px;
             width: 700px;
-            height: 650px;
+            .service-list-content{
+                width: 400px;
+                .service-list-content-list{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+            }
             .service-box{
                 .service-box-nu-na{
                     margin-left: 50px;
-                    height: 650px;
                     p{
                         font-size: 50px;
                     }
                 }
                 .service-content-box{
-                    width: 350px;
                     .service-content{
                     display: block;
                     .service-ph{
@@ -1004,7 +1009,9 @@ footer{
                     }
                     .service-list{
                         width: 470px;
+                        height: 180px;
                         margin-top: 20px;
+                        margin-bottom: 20px;
                         display: flex;
                         flex-wrap: wrap;
                         .service-list-btn{
@@ -1017,9 +1024,9 @@ footer{
                     }
                 }
             }
-            .service-box-gr{
-                height: 800px;
-            }
+            // .service-box-gr{
+            //     height: 800px;
+            // }
         }
     }
 
@@ -1093,8 +1100,9 @@ footer{
                 margin-left: 40px;
                 height: auto;
                 p{
-                    
+                    // width: 450px;
                     margin: 0 auto;
+                    margin-top: 40px;
                 }
                 .price-section{
                     width: 650px;
@@ -1112,6 +1120,7 @@ footer{
                     }
                 }
                 .range-section{
+                    height: 220px;
                     background-size: 650px;
                     background-position: 0 40%;
                     .range{
@@ -1122,6 +1131,11 @@ footer{
         }
     }
 
+    .flow{
+        .flow-box{
+            width: 620px;
+        }
+    }
     .faq{
         .faq-title{
             width: 700px;
@@ -1245,10 +1259,13 @@ body{
     }
     .service-main-box{
         width: 370px;
-        height: 1020px;
         margin-left: 0;
-        padding-left: 40px;
+        padding-left: 30px;
         padding-right: 30px;
+        .service-list-content{
+            margin-left: 0;
+            width: 300px;
+        }
         .service-box{
             display: block;
             .service-box-nu-na{
@@ -1280,10 +1297,15 @@ body{
                     margin-left: 0;
                     display: block;
                     width: 370px;
+                    height: 400px;
+
                     .service-list-btn{
                         width: 200px;
                         margin-right: 0;
                     }
+                }
+                .service-list-gr{
+                    height: 150px;
                 }
             }
         }
@@ -1335,6 +1357,7 @@ body{
 .split-right{
     .split-right-inner{
         .range-section{
+            height: 310px;
             background-size: 400px !important;
             background-position: bottom;
             background-position: 0 80% !important;
@@ -1343,6 +1366,12 @@ body{
                 width: 250px;
             }
         }
+        .range-section{
+            height: 300px !important;
+        }
+        .range-section-gr{
+            height: 200px !important;
+        }
     }
 }
 .split{
@@ -1350,8 +1379,13 @@ body{
         width: 425px;
         .split-right-inner{
             margin-left: 10px;
+            .split-right-inner-text{
+                font-size: 12px;
+                width: 330px;
+            }
             p{
                 font-size: 12px;
+                width: 90px;
             }
             .price-section{
                 width: 400px;
@@ -1386,6 +1420,7 @@ body{
     width: 410px;
     padding-left: 20px;
     .flow-box{
+        width: 380px;
         .flow-list{
             display: none;
         }
@@ -1416,7 +1451,9 @@ body{
 }
 
 .form{
+    padding: 20px;
     .form-box{
+
         .form-box-title{
             .form-title{
                 display: block;
@@ -1431,7 +1468,7 @@ body{
 
     }
     form{
-        width: 400px;
+        width: 370px;
         div{  
             width: 370px;
             .input_area{
